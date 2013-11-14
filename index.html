@@ -1,0 +1,1277 @@
+<!DOCTYPE html>
+<html>
+
+
+
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" /> 
+	<title> Mars Missions - jQuery Mobile Assignment - Gabriel Garus </title> 
+	
+	<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.js"></script>
+	
+	<style type="text/css">
+		li p {
+		
+			font-weight: normal;
+			text-shadow: none;
+			display: inline-block;
+			
+		}
+
+		p.mytext {
+			text-align: justify;
+			text-shadow: none;
+
+		}
+
+
+
+
+	</style>
+	
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.css" />
+</head> 
+
+
+
+
+<body> 
+
+<div data-role="page" id="index" data-theme="b">
+
+ <div data-role="panel" data-display="overlay" id="mypanel" data-theme="a" style="opacity: 0.7;">
+     <br /> 
+     <h4>Digital Skills Academy</h4>
+     <h4> Webelevate </h4>
+     <h3> Jquery Mobile Assigment </h3>
+     
+     Author: Gabriel Garus
+     Student id: D09122844
+     
+      
+     
+     
+     <br />
+     
+     <a href="#theheader" data-rel="close">Close panel</a>
+    </div><!-- /panel -->
+    
+    
+	<div id="theheader" data-role="header">
+    <a href="#mypanel">About</a>
+		<h1>Mars Missions - jQuery_Mobile - Assignment - Gabriel Garus</h1>
+<div data-role="navbar">
+	<ul>
+		<li><a href="#index" data-transition="fade"> home</a></li>
+		<li><a href="#news" data-transition="pop"> Mars News</a></li>
+		<li><a href="#brief" data-transition="fade"> Assignment Brief</a></li>
+	</ul>
+</div><!-- /navbar -->
+	</div> 
+
+	<div data-role="content">
+
+
+<ul data-role="listview" data-filter="true" data-theme="a" >
+
+<li><a href="#mars1" data-transition="slide">
+Mars 1   
+| 1 November 1962
+| USSR
+</a></li>
+
+<li><a href="#mariner4">
+Mariner 4
+| 28 November 1964
+| NASA
+</a></li>
+
+<li><a href="#mariner6">
+Mariner 6
+| 25 February 1969
+| NASA
+
+</a></li>
+
+<li><a href="#mariner7">
+Mariner 7
+| 27 March 1969
+| NASA
+</a></li>
+
+<li><a href="#mariner9">
+Mariner 9
+| 30 May 1971
+| NASA
+
+</a></li>
+
+<li><a href="#mars2">
+Mars 2
+| 19 May 1971
+| USSR
+
+</a></li>
+
+<li><a href="#mars3">
+Mars 3
+| 28 May 1971
+| USSR
+</a></li>
+
+<li><a href="#mars4">
+Mars 4
+| 21 July 1973
+| USSR
+</a></li>
+
+<li><a href="#mars5">
+Mars 5
+| 25 July 1973
+| USSR
+
+</a></li>
+
+<li><a href="#mars6">
+Mars 6
+| 5 August 1973
+| USSR
+
+</a></li>
+
+<li><a href="#mars7">
+Mars 7
+| 9 August 1973
+| USSR
+
+</a></li>
+
+<li><a href="#viking1">
+Viking 1
+| 20 August 1975
+| NASA
+
+</a></li>
+
+<li><a href="#viking2">
+Viking 2
+| 9 September 1975
+| NASA
+
+</a></li>
+
+<li><a href="#phobos2">
+Phobos 2
+| 12 July 1988
+| USSR
+
+</a></li>
+
+<li><a href="#surveyor">
+Mars Global Surveyor
+| 7 November 1996
+| NASA
+
+</a></li>
+
+<li><a href="#pathfinder">
+Mars Pathfinder
+| 4 December 1996
+| NASA
+
+</a></li>
+
+<li><a href="#nozomi">
+Nozomi (Planet-B)
+| 3 July 1998
+| Japan
+
+</a></li>
+
+<li><a href="#climate">
+Mars Climate Orbiter 
+| 11 December 1998
+| NASA
+
+</a></li>
+
+<li><a href="#polar">
+Mars Polar Lander / Deep Space 2 
+| 3 January 1999
+| NASA
+
+</a></li>
+
+<li><a href="#odyssey">
+Mars Odyssey 
+| 7 April 2001
+| NASA
+
+</a></li>
+
+<li><a href="#express">
+Mars Express
+| 2 June 2003
+| ESA
+
+</a></li>
+
+<li><a href="#beagle">
+Beagle 2 
+| 2 June 2003
+| UK
+
+</a></li>
+
+<li><a href="#spirit">
+MER-A Spirit 
+| 10 June 2003
+| NASA
+
+</a></li>
+
+<li><a href="#opportunity">
+MER-B Opportunity 
+| 7 July 2003
+| NASA
+
+</a></li>
+
+<li><a href="#rosetta">
+Rosetta
+| 2 March 2004
+| ESA
+
+</a></li>
+
+<li><a href="#recon">
+Mars Reconnaissance Orbiter
+| 12 August 2005
+| NASA
+
+</a></li>
+
+<li><a href="#phoenix">
+Phoenix
+| 4 August 2007
+| NASA
+
+</a></li>
+
+<li><a href="#dawn">
+Dawn
+| 27 September 2007
+| NASA
+
+</a></li>
+
+<li><a href="#curiosity">
+MSL Curiosity
+| 26 November 2011
+| NASA
+
+</a></li>
+
+<li><a href="#mom">
+Mars Orbiter Mission
+| 5 November 2013
+| ISRO
+
+</a></li>
+
+
+</ul>
+
+	</div>
+
+</div> 
+
+<!--*********************************************************************************************-->
+
+<div data-role="page" id="mars1" data-theme="b">
+	<div data-role="header">
+		<h1>Mars 1</h1>
+
+
+<div data-role="navbar">
+	<ul>
+		<li><a href="#index" data-transition="slide"> &#60 &#60 &#60 home</a></li>
+		<li><a href="#news" data-transition="pop"> Mars News</a></li>
+		<li><a href="#brief" data-transition="fade"> Assignment Brief</a></li>
+	</ul>
+</div><!-- /navbar -->
+
+	</div> 
+
+		<div data-role="content">
+<p class="mytext">
+	Mars 1, also known as 1962 Beta Nu 1, Mars 2MV-4 and Sputnik 23, was an automatic interplanetary station launched in the direction of Mars on November 1, 1962, the first of the Soviet Mars probe program, with the intent of flying by the planet at a distance of about 11,000 km. It was designed to image the surface and send back data on cosmic radiation, micrometeoroid impacts and Mars' magnetic field, radiation environment, atmospheric structure, and possible organic compounds. After leaving Earth orbit, the spacecraft and the booster fourth stage separated and the solar panels were deployed. Early telemetry indicated that there was a leak in one of the gas valves in the orientation system so the spacecraft was transferred to gyroscopic stabilization. Sixty-one radio transmissions were held, initially at two day intervals and later at five days in which a large amount of interplanetary data were collected. On 21 March 1963, when the spacecraft was at a distance of 106,760,000 km from Earth on its way to Mars, communications ceased, probably due to failure of the spacecraft's antenna orientation system. Mars 1 closest approach to Mars occurred on June 19, 1963 at a distance of approximately 193,000 km, after which the spacecraft entered a heliocentric orbit.
+</p>
+
+		</div>
+</div>
+
+<!--*********************************************************************************************-->
+
+
+
+<div data-role="page" id="mariner4" data-theme="b">
+	<div data-role="header">
+		<h1>Mariner 4</h1>
+
+
+<div data-role="navbar">
+	<ul>
+		<li><a href="#index" data-transition="slide"> &#60 &#60 &#60 home</a></li>
+		<li><a href="#news" data-transition="pop"> Mars News</a></li>
+		<li><a href="#brief" data-transition="fade"> Assignment Brief</a></li>
+	</ul>
+</div><!-- /navbar -->
+
+	</div> 
+
+		<div data-role="content">
+<p class="mytext">
+	Mariner 4 (together with Mariner 3 known as Mariner–Mars 1964) was the fourth in a series of spacecraft intended for planetary exploration in a flyby mode. It was designed to conduct closeup scientific observations of Mars and to transmit these observations to Earth. Launched on November 28, 1964, Mariner 4 performed the first successful flyby of the planet Mars returning the first pictures of the Martian surface. It captured the first images of another planet ever returned from deep space; their depiction of a cratered, seemingly dead world largely changed the view of the scientific community on life on Mars. Other mission objectives were to perform field and particle measurements in interplanetary space in the vicinity of Mars and to provide experience in and knowledge of the engineering capabilities for interplanetary flights of long duration. On December 21, 1967 communications with Mariner 4 were terminated.
+</p>
+
+		</div>
+</div>
+
+<!--*********************************************************************************************-->
+
+
+
+
+
+<div data-role="page" id="mariner6" data-theme="b">
+	<div data-role="header">
+		<h1>Mariner 6</h1>
+
+
+<div data-role="navbar">
+	<ul>
+		<li><a href="#index" data-transition="slide"> &#60 &#60 &#60 home</a></li>
+		<li><a href="#news" data-transition="pop"> Mars News</a></li>
+		<li><a href="#brief" data-transition="fade"> Assignment Brief</a></li>
+	</ul>
+</div><!-- /navbar -->
+
+	</div> 
+
+		<div data-role="content">
+<p class="mytext">
+	As part of NASA's wider Mariner program, Mariner 6 and Mariner 7 (Mariner Mars 69A and Mariner Mars 69B) completed the first dual mission to Mars in 1969. Mariner 6 was launched from Launch Complex 36B at Cape Kennedy and Mariner 7 from Launch Complex 36A at Cape Kennedy. The craft flew over the equator and south polar regions, analyzing the atmosphere and the surface with remote sensors, and recording and relaying hundreds of pictures. The mission's goals were to study the surface and atmosphere of Mars during close flybys, in order to establish the basis for future investigations, particularly those relevant to the search for extraterrestrial life, and to demonstrate and develop technologies required for future Mars missions. Mariner 6 also had the objective of providing experience and data which would be useful in programming the Mariner 7 encounter 5 days later.
+</p>
+
+		</div>
+</div>
+
+<!--*********************************************************************************************-->
+
+
+<div data-role="page" id="mariner7" data-theme="b">
+	<div data-role="header">
+		<h1>Mariner 7</h1>
+
+
+<div data-role="navbar">
+	<ul>
+		<li><a href="#index" data-transition="slide"> &#60 &#60 &#60 home</a></li>
+		<li><a href="#news" data-transition="pop"> Mars News</a></li>
+		<li><a href="#brief" data-transition="fade"> Assignment Brief</a></li>
+	</ul>
+</div><!-- /navbar -->
+
+	</div> 
+
+		<div data-role="content">
+<p class="mytext">
+	As part of NASA's wider Mariner program, Mariner 6 and Mariner 7 (Mariner Mars 69A and Mariner Mars 69B) completed the first dual mission to Mars in 1969. Mariner 6 was launched from Launch Complex 36B at Cape Kennedy and Mariner 7 from Launch Complex 36A at Cape Kennedy. The craft flew over the equator and south polar regions, analyzing the atmosphere and the surface with remote sensors, and recording and relaying hundreds of pictures. The mission's goals were to study the surface and atmosphere of Mars during close flybys, in order to establish the basis for future investigations, particularly those relevant to the search for extraterrestrial life, and to demonstrate and develop technologies required for future Mars missions. Mariner 6 also had the objective of providing experience and data which would be useful in programming the Mariner 7 encounter 5 days later.
+</p>
+
+		</div>
+</div>
+
+<!--*********************************************************************************************-->
+
+
+
+<div data-role="page" id="mariner9" data-theme="b">
+	<div data-role="header">
+		<h1>Mariner 9</h1>
+
+
+<div data-role="navbar">
+	<ul>
+		<li><a href="#index" data-transition="slide"> &#60 &#60 &#60 home</a></li>
+		<li><a href="#news" data-transition="pop"> Mars News</a></li>
+		<li><a href="#brief" data-transition="fade"> Assignment Brief</a></li>
+	</ul>
+</div><!-- /navbar -->
+
+	</div> 
+
+		<div data-role="content">
+<p class="mytext">
+	Mariner 9 (Mariner Mars '71 / Mariner-I) was an unmanned NASA space probe that contributed greatly to the exploration of Mars and was part of the Mariner program. Mariner 9 was launched toward Mars on May 30, 1971 from Cape Canaveral Air Force Station and reached the planet on November 14 of the same year, becoming the first spacecraft to orbit another planet — only narrowly beating Soviet Mars 2 and Mars 3, which both arrived within a month. After months of dust storms it managed to send back clear pictures of the surface.
+    Mariner 9 returned 7329 images over the course of its mission, which concluded in October 1972.
+</p>
+
+		</div>
+</div>
+
+<!--*********************************************************************************************-->
+
+
+
+
+
+
+<div data-role="page" id="mars2" data-theme="b">
+	<div data-role="header">
+		<h1>Mars 2</h1>
+
+
+<div data-role="navbar">
+	<ul>
+		<li><a href="#index" data-transition="slide"> &#60 &#60 &#60 home</a></li>
+		<li><a href="#news" data-transition="pop"> Mars News</a></li>
+		<li><a href="#brief" data-transition="fade"> Assignment Brief</a></li>
+	</ul>
+</div><!-- /navbar -->
+
+	</div> 
+
+		<div data-role="content">
+<p class="mytext">
+	The Mars 2 was an unmanned space probe of the Mars program, a series of unmanned Mars landers and orbiters launched by the Soviet Union in the early 1970s. Mars 2 and Mars 3 missions consisted of identical spacecraft, each with an orbiter and an attached lander, they were launched by Proton K heavy launch vehicle with a Blok D upper stage. The lander of Mars 2 became the first man-made object to reach the surface of Mars.
+</p>
+
+		</div>
+</div>
+
+<!--*********************************************************************************************-->
+
+
+
+
+<div data-role="page" id="mars3" data-theme="b">
+	<div data-role="header">
+		<h1>Mars 3</h1>
+
+
+<div data-role="navbar">
+	<ul>
+		<li><a href="#index" data-transition="slide"> &#60 &#60 &#60 home</a></li>
+		<li><a href="#news" data-transition="pop"> Mars News</a></li>
+		<li><a href="#brief" data-transition="fade"> Assignment Brief</a></li>
+	</ul>
+</div><!-- /navbar -->
+
+	</div> 
+
+		<div data-role="content">
+<p class="mytext">
+	Mars 3 was an unmanned space probe of the Soviet Mars program which spanned the years between 1960 and 1973. Mars 3 was launched nine days after its twin spacecraft Mars 2. The probes were identical spacecraft, each consisting of an orbiter and an attached lander. After Mars 2 crash-landed on the martian surface, Mars 3 lander became the first spacecraft to attain soft landing on Mars. Both probes were launched by Proton-K rockets with Blok D upper stages.
+
+    Launch Date/Time:  Mars 3: May 28, 1971 at 15:26:30 UTC
+    Launch mass (including fuel):
+        Combined: 4,650 kg (10,250 lb)
+        Orbiter: 3,440 kg (7,580 lb)
+        Lander: 1,210 kg (2,670 lb)
+    On-orbit dry mass: 2,265 kg (4,993 lb)
+    Dimensions: 4.1 m (13.5 ft) tall, 2 m (6.6 ft) across (5.9 m (19.4 ft) across with solar panels deployed)
+
+</p>
+
+		</div>
+</div>
+
+<!--*********************************************************************************************-->
+
+
+<div data-role="page" id="mars4" data-theme="b">
+	<div data-role="header">
+		<h1>Mars 4</h1>
+
+
+<div data-role="navbar">
+	<ul>
+		<li><a href="#index" data-transition="slide"> &#60 &#60 &#60 home</a></li>
+		<li><a href="#news" data-transition="pop"> Mars News</a></li>
+		<li><a href="#brief" data-transition="fade"> Assignment Brief</a></li>
+	</ul>
+</div><!-- /navbar -->
+
+	</div> 
+
+		<div data-role="content">
+<p class="mytext">
+	Mars 4 (Russian: Марс-4), also known as 3MS No.52S was a Soviet spacecraft intended to explore Mars. A 3MS spacecraft launched as part of the Mars programme, it was intended to enter orbit around Mars in 1974, however computer problems prevented orbital insertion from occurring.
+	The Mars 4 spacecraft carried an array of instruments to study Mars. In addition to cameras, it was equipped with a radio telescope, an IR radiometer, multiple photometers, polarimeters a magnetometer, plasma traps, an electrostatic analyser, a gamma-ray specroemter and a radio probe.
+	Built by Lavochkin, Mars 4 was the first of two 3MS spacecraft launched to Mars in 1973; being followed by Mars 5. A 3MS was also launched during the 1971 launch window as Kosmos 419, however due to a launch failure it failed to depart Earth orbit. In addition to the orbiters, two 3MP lander missions; Mars 6 and Mars 7; were launched during the 1973 window.
+
+</p>
+
+		</div>
+</div>
+
+<!--*********************************************************************************************-->
+
+
+
+<div data-role="page" id="mars5" data-theme="b">
+	<div data-role="header">
+		<h1>Mars 5</h1>
+
+
+<div data-role="navbar">
+	<ul>
+		<li><a href="#index" data-transition="slide"> &#60 &#60 &#60 home</a></li>
+		<li><a href="#news" data-transition="pop"> Mars News</a></li>
+		<li><a href="#brief" data-transition="fade"> Assignment Brief</a></li>
+	</ul>
+</div><!-- /navbar -->
+
+	</div> 
+
+		<div data-role="content">
+<p class="mytext">
+	Mars 5 (Russian: Марс-5), also known as 3MS No.53S was a Soviet spacecraft launched to explore Mars. A 3MS spacecraft launched as part of the Mars programme, it successfully entered orbit around Mars in 1974, however it failed a few days later.The Mars 5 spacecraft carried an array of instruments to study Mars. In addition to cameras, it was equipped with a radio telescope, an IR radiometer, multiple photometers, polarimeters a magnetometer, plasma traps, an electrostatic analyser, a gamma-ray spectrometer and a radio probe.
+	Built by Lavochkin, Mars 5 was the second of two 3MS spacecraft launched to Mars in 1973; following Mars 4. A 3MS was also launched during the 1971 launch window as Kosmos 419, however due to a launch failure it failed to depart Earth orbit. In addition to the orbiters, two 3MP lander missions; Mars 6 and Mars 7; were launched during the 1973 window.
+
+</p>
+
+		</div>
+</div>
+
+<!--*********************************************************************************************-->
+
+
+<div data-role="page" id="mars6" data-theme="b">
+	<div data-role="header">
+		<h1>Mars 6</h1>
+
+
+<div data-role="navbar">
+	<ul>
+		<li><a href="#index" data-transition="slide"> &#60 &#60 &#60 home</a></li>
+		<li><a href="#news" data-transition="pop"> Mars News</a></li>
+		<li><a href="#brief" data-transition="fade"> Assignment Brief</a></li>
+	</ul>
+</div><!-- /navbar -->
+
+	</div> 
+
+		<div data-role="content">
+<p class="mytext">
+	Mars 6 (Russian: Марс-6), also known as 3MP No.50P was a Soviet spacecraft launched to explore Mars. A 3MP spacecraft launched as part of the Mars program, it consisted of a lander, and a coast stage with instruments to study Mars as it flew past.
+	The Mars 6 spacecraft carried an array of instruments to study Mars. The lander was equipped with a thermometer and barometer to determine the surface conditions, an accelerometer and radio altimeter for descent, and instruments to analyse the surface material including a mass spectrometer. The coast stage, or bus, carried a magnetometer, plasma traps, cosmic ray and micrometeoroid detectors, and an instrument to study proton and electron fluxes from the Sun.
+	Built by Lavochkin, Mars 6 was the first of two 3MP spacecraft launched to Mars in 1973; and was followed by Mars 7. Two orbiters, Mars 4 and Mars 5 were launched earlier in the 1973 Mars launch window, and were expected to relay data for the two landers, however Mars 4 failed to enter orbit, and Mars 5 failed after a few days in orbit.
+
+</p>
+
+		</div>
+</div>
+
+<!--*********************************************************************************************-->
+
+
+<div data-role="page" id="mars7" data-theme="b">
+	<div data-role="header">
+		<h1>Mars 7</h1>
+
+
+<div data-role="navbar">
+	<ul>
+		<li><a href="#index" data-transition="slide"> &#60 &#60 &#60 home</a></li>
+		<li><a href="#news" data-transition="pop"> Mars News</a></li>
+		<li><a href="#brief" data-transition="fade"> Assignment Brief</a></li>
+	</ul>
+</div><!-- /navbar -->
+
+	</div> 
+
+		<div data-role="content">
+<p class="mytext">
+	Mars 7 (Russian: Марс-7), also known as 3MP No.51P was a Soviet spacecraft launched to explore Mars. A 3MP spacecraft which comprised the final mission of the Mars programme, it consisted of a lander and a coast stage with instruments to study Mars as it flew past. Due to a malfunction, the lander failed to perform a manoeuvre necessary to enter the Martian atmosphere, missing the planet and remaining in heliocentric orbit along with the coast stage.
+	Mars 7 spacecraft carried an array of instruments to study Mars. The lander was equipped with a thermometer and barometer to determine the surface conditions, an accelerometer and radio altimeter for descent, and instruments to analyse the surface material including a mass spectrometer. The coast stage, or bus, carried a magnetometer, plasma traps, cosmic ray and micrometeoroid detectors, stereo antennae, and an instrument to study proton and electron fluxes from the Sun.
+	Built by Lavochkin, Mars 7 was the second of two 3MP spacecraft launched to Mars in 1973; having been preceded by Mars 6. Two orbiters, Mars 4 and Mars 5 were launched earlier in the 1973 Mars launch window, and were expected to relay data for the two landers, however Mars 4 failed to enter orbit, and Mars 5 failed after a few days in orbit.
+</p>
+
+		</div>
+</div>
+
+<!--*********************************************************************************************-->
+
+
+<div data-role="page" id="viking1" data-theme="b">
+	<div data-role="header">
+		<h1>Viking 1</h1>
+
+
+<div data-role="navbar">
+	<ul>
+		<li><a href="#index" data-transition="slide"> &#60 &#60 &#60 home</a></li>
+		<li><a href="#news" data-transition="pop"> Mars News</a></li>
+		<li><a href="#brief" data-transition="fade"> Assignment Brief</a></li>
+	</ul>
+</div><!-- /navbar -->
+
+	</div> 
+
+		<div data-role="content">
+<p class="mytext">
+	Viking 1 was the first of two spacecraft (along with Viking 2) sent to Mars as part of NASA's Viking program. It was the first spacecraft to successfully land on Mars and perform its mission, and held the record for the longest Mars surface mission of 6 years and 116 days or 1775 sols (from landing until surface mission termination, Earth time) until that record was broken by the Opportunity Rover on May 19, 2010.
+</p>
+
+		</div>
+</div>
+
+<!--*********************************************************************************************-->
+
+
+
+<div data-role="page" id="viking2" data-theme="b">
+	<div data-role="header">
+		<h1>Viking 2</h1>
+
+
+<div data-role="navbar">
+	<ul>
+		<li><a href="#index" data-transition="slide"> &#60 &#60 &#60 home</a></li>
+		<li><a href="#news" data-transition="pop"> Mars News</a></li>
+		<li><a href="#brief" data-transition="fade"> Assignment Brief</a></li>
+	</ul>
+</div><!-- /navbar -->
+
+	</div> 
+
+		<div data-role="content">
+<p class="mytext">
+	The Viking 2 mission was part of the American Viking program to Mars, and consisted of an orbiter and a lander essentially identical to that of the Viking 1 mission. The Viking 2 lander operated on the surface for 1,281 Mars days and was turned off on 11 April 1980 when its batteries failed. The orbiter worked until 25 July 1978, returning almost 16,000 images in 706 orbits around Mars.
+</p>
+
+		</div>
+</div>
+
+<!--*********************************************************************************************-->
+
+<div data-role="page" id="phobos2" data-theme="b">
+	<div data-role="header">
+		<h1>Phobos 2</h1>
+
+
+<div data-role="navbar">
+	<ul>
+		<li><a href="#index" data-transition="slide"> &#60 &#60 &#60 home</a></li>
+		<li><a href="#news" data-transition="pop"> Mars News</a></li>
+		<li><a href="#brief" data-transition="fade"> Assignment Brief</a></li>
+	</ul>
+</div><!-- /navbar -->
+
+	</div> 
+
+		<div data-role="content">
+<p class="mytext">
+	The Phobos (Russian: Фобос, Fobos, Greek: Φόβος) program was an unmanned space mission consisting of two probes launched by the Soviet Union to study Mars and its moons Phobos and Deimos. Phobos 1 was launched on July 7, 1988, and Phobos 2 on July 12, 1988, each aboard a Proton-K rocket. Phobos 1 suffered a terminal failure en route to Mars. Phobos 2 attained Mars orbit and returned 38 images with a resolution of up to 40 meters, but contact was lost prior to deployment of a planned Phobos lander.
+	Phobos 1 and 2 were of a new spacecraft design, succeeding the type used in the Venera planetary missions of 1975–1985, last used during the Vega 1 and Vega 2 missions to comet Halley. They each had a mass of 2600 kg (6220 kg with orbital insertion hardware attached).
+	The program featured co-operation from 14 other nations, including Sweden, Switzerland, Austria, France, West Germany, and the United States (which contributed the use of its Deep Space Network for tracking the twin spacecraft).
+</p>
+
+		</div>
+</div>
+
+<!--*********************************************************************************************-->
+
+<!--*********************************************************************************************-->
+
+<div data-role="page" id="surveyor" data-theme="b">
+	<div data-role="header">
+		<h1>Mars Global Surveyor</h1>
+
+
+<div data-role="navbar">
+	<ul>
+		<li><a href="#index" data-transition="slide">  &#60 &#60 &#60 home</a></li>
+		<li><a href="#news" data-transition="pop"> Mars News</a></li>
+		<li><a href="#brief" data-transition="fade"> Assignment Brief</a></li>
+	</ul>
+</div><!-- /navbar -->
+
+	</div> 
+
+		<div data-role="content">
+<p class="mytext">
+	Mars Global Surveyor (MGS) was a US spacecraft developed by NASA's Jet Propulsion Laboratory and launched November 1996. It began the United States's return to Mars after a 10-year absence. Mars Global Surveyor was a global mapping mission that examined the entire planet, from the ionosphere down through the atmosphere to the surface. As part of the larger Mars Exploration Program, Mars Global Surveyor performed atmospheric monitoring for sister orbiters during aerobraking, it helped rovers and lander missions by identifying potential landing sites and relaying surface telemetry.
+	It completed its primary mission in January 2001 and was in its third extended mission phase when, on 2 November 2006, the spacecraft failed to respond to messages and commands. A faint signal was detected three days later which indicated that it had gone into safe mode. Attempts to recontact the spacecraft and resolve the problem failed, and NASA officially ended the mission in January 2007.
+</p>
+
+		</div>
+</div>
+
+<!--*********************************************************************************************-->
+
+
+<!--*********************************************************************************************-->
+
+<div data-role="page" id="pathfinder" data-theme="b">
+	<div data-role="header">
+		<h1>Mars Pathfinder</h1>
+
+
+<div data-role="navbar">
+	<ul>
+		<li><a href="#index" data-transition="slide"> &#60 &#60 &#60 home</a></li>
+		<li><a href="#news" data-transition="pop"> Mars News</a></li>
+		<li><a href="#brief" data-transition="fade"> Assignment Brief</a></li>
+	</ul>
+</div><!-- /navbar -->
+
+	</div> 
+
+		<div data-role="content">
+<p class="mytext">
+	Mars Pathfinder (MESUR Pathfinder) was an American spacecraft that landed a base station with a roving probe on Mars in 1997. It consisted of a lander, renamed the Carl Sagan Memorial Station, and a lightweight (10.6 kg/23 lb) wheeled robotic Mars rover named Sojourner.
+	Launched on December 4, 1996 by NASA aboard a Delta II booster a month after the Mars Global Surveyor was launched, it landed on July 4, 1997 on Mars's Ares Vallis, in a region called Chryse Planitia in the Oxia Palus quadrangle. The lander then opened, exposing the rover which conducted many experiments on the Martian surface. The mission carried a series of scientific instruments to analyze the Martian atmosphere, climate, geology and the composition of its rocks and soil. It was the second project from NASA's Discovery Program, which promotes the use of low-cost spacecraft and frequent launches under the motto "cheaper, faster and better" promoted by the then administrator, Daniel Goldin. The mission was directed by the Jet Propulsion Laboratory (JPL), a division of the California Institute of Technology, responsible for NASA's Mars Exploration Program. The project manager was JPL's Tony Spear.
+	This mission was the first of a series of missions to Mars that included rovers, and was the first successful lander since the two Vikings landed on the red planet in 1976. Although the Soviet Union successfully sent rovers to the Moon as part of the Lunokhod program in the 1970s, its attempts to use rovers in its Mars probe program failed.
+	In addition to scientific objectives, the Mars Pathfinder mission was also a "proof-of-concept" for various technologies, such as airbag-mediated touchdown and automated obstacle avoidance, both later exploited by the Mars Exploration Rover mission. The Mars Pathfinder was also remarkable for its extremely low cost relative to other unmanned space missions to Mars. Originally, the mission was conceived as the first of the Mars Environmental Survey (MESUR) program.
+</p>
+
+		</div>
+</div>
+
+<!--*********************************************************************************************-->
+
+
+<!--*********************************************************************************************-->
+
+<div data-role="page" id="nozomi" data-theme="b">
+	<div data-role="header">
+		<h1>Nozomi (Planet-B)</h1>
+
+
+<div data-role="navbar">
+	<ul>
+		<li><a href="#index" data-transition="slide"> &#60 &#60 &#60 home</a></li>
+		<li><a href="#news" data-transition="pop"> Mars News</a></li>
+		<li><a href="#brief" data-transition="fade"> Assignment Brief</a></li>
+	</ul>
+</div><!-- /navbar -->
+
+	</div> 
+
+		<div data-role="content">
+<p class="mytext">
+	Nozomi (のぞみ) (Japanese for "Wish" or "Hope," and known before launch as Planet-B) was planned as a Mars-orbiting aeronomy probe, but was unable to achieve Mars orbit due to electrical failures. Operation was terminated on December 31, 2003. 
+	It was constructed by the Institute of Space and Astronautical Science, University of Tokyo and launched on July 4, 1998 at 03:12 JST (18:12 UTC) with an on-orbit dry mass of 258 kg and 282 kg of propellant.
+	Nozomi was designed to study the upper Martian atmosphere and its interaction with the solar wind and to develop technologies for use in future planetary missions. Specifically, instruments on the spacecraft were to measure the structure, composition and dynamics of the ionosphere, aeronomy effects of the solar wind, the escape of atmospheric constituents, the intrinsic magnetic field, the penetration of the solar-wind magnetic field, the structure of the magnetosphere, and dust in the upper atmosphere and in orbit around Mars. The mission would have also returned images of Mars' surface.
+</p>
+
+		</div>
+</div>
+
+<!--*********************************************************************************************-->
+
+
+<!--*********************************************************************************************-->
+
+<div data-role="page" id="climate" data-theme="b">
+	<div data-role="header">
+		<h1> Mars Climate Orbiter </h1>
+
+
+<div data-role="navbar">
+	<ul>
+		<li><a href="#index" data-transition="slide"> &#60 &#60 &#60 home</a></li>
+		<li><a href="#news" data-transition="pop"> Mars News</a></li>
+		<li><a href="#brief" data-transition="fade"> Assignment Brief</a></li>
+	</ul>
+</div><!-- /navbar -->
+
+	</div> 
+
+		<div data-role="content">
+<p class="mytext">
+	The Mars Climate Orbiter (formerly the Mars Surveyor '98 Orbiter) was a 338 kilogram (750 lb) robotic space probe launched by NASA on December 11, 1998 to study the Martian climate, atmosphere, surface changes and to act as the communications relay in the Mars Surveyor '98 program, for Mars Polar Lander. However, on September 23, 1999, communication with the spacecraft was lost as the spacecraft went into orbital insertion, due to ground-based computer software which produced output in non-SI units of pound-seconds (lbf×s) instead of the metric units of newton-seconds (N×s) specified in the contract between NASA and Lockheed. The spacecraft encountered Mars at an improper angle, causing it to incorrectly enter the upper atmosphere and disintegrate.
+</p>
+
+		</div>
+</div>
+
+<!--*********************************************************************************************-->
+
+
+<div data-role="page" id="polar" data-theme="b">
+	<div data-role="header">
+		<h1> Mars Polar Lander / Deep Space 2  </h1>
+
+
+<div data-role="navbar">
+	<ul>
+		<li><a href="#index" data-transition="slide">  &#60 &#60 &#60 home</a></li>
+		<li><a href="#news" data-transition="pop"> Mars News</a></li>
+		<li><a href="#brief" data-transition="fade"> Assignment Brief</a></li>
+	</ul>
+</div><!-- /navbar -->
+
+	</div> 
+
+		<div data-role="content">
+<p class="mytext">
+	The Mars Polar Lander, also referred to as the Mars Surveyor '98 Lander, was a 290-kilogram robotic spacecraft lander, launched by NASA on January 3, 1999, to study the soil and climate of Planum Australe, a region near the south pole on Mars, as part of the Mars Surveyor '98 mission. However, on December 3, 1999, after the descent phase was expected to be complete, the lander failed to reestablish communication with Earth. It was determined that the most likely cause of the mishap was an improperly terminated engine firing prior to the lander touching the surface, causing the lander to impact at a high velocity.
+</p>
+
+		</div>
+</div>
+
+<!--*********************************************************************************************-->
+<!--*********************************************************************************************-->
+
+
+<div data-role="page" id="odyssey" data-theme="b">
+	<div data-role="header">
+		<h1> Mars Odyssey  </h1>
+
+
+<div data-role="navbar">
+	<ul>
+		<li><a href="#index" data-transition="slide">  &#60 &#60 &#60 home</a></li>
+		<li><a href="#news" data-transition="pop"> Mars News</a></li>
+		<li><a href="#brief" data-transition="fade"> Assignment Brief</a></li>
+	</ul>
+</div><!-- /navbar -->
+
+	</div> 
+
+		<div data-role="content">
+<p class="mytext">
+	2001 Mars Odyssey is a robotic spacecraft orbiting the planet Mars. The project was developed by NASA, and contracted out to Lockheed Martin, with an expected cost for the entire mission of US$297 million. Its mission is to use spectrometers and electronic imagers to detect evidence of past or present water and volcanic activity on Mars. It is hoped that the data Odyssey obtains will help answer the question of whether life has ever existed on Mars. It also acts as a relay for communications between the Mars Exploration Rovers, Mars Science Laboratory, and the Phoenix lander to Earth.
+</p>
+
+		</div>
+</div>
+
+<!--*********************************************************************************************-->
+
+<!--*********************************************************************************************-->
+
+
+<div data-role="page" id="express" data-theme="b">
+	<div data-role="header">
+		<h1> Mars Express  </h1>
+		<div data-role="navbar">
+			<ul>
+				<li><a href="#index" data-transition="slide">  &#60 &#60 &#60 home</a></li>
+				<li><a href="#news" data-transition="pop"> Mars News</a></li>
+				<li><a href="#brief" data-transition="fade"> Assignment Brief</a></li>
+			</ul>
+		</div><!-- /navbar -->
+
+	</div> 
+
+		<div data-role="content">
+<p class="mytext">
+Mars Express is a space exploration mission being conducted by the European Space Agency (ESA). The Mars Express mission is exploring the planet Mars, and is the first planetary mission attempted by the agency. "Express" originally referred to the speed and efficiency with which the spacecraft was designed and built. However "Express" also describes the spacecraft's relatively short interplanetary voyage, a result of being launched when the orbits of Earth and Mars brought them closer than they had been in about 60,000 years.
+</p>
+
+		</div>
+</div>
+<!--*********************************************************************************************-->
+
+<!--*********************************************************************************************-->
+
+
+<div data-role="page" id="beagle" data-theme="b">
+	<div data-role="header">
+		<h1>Beagle 2 </h1>
+		<div data-role="navbar">
+			<ul>
+				<li><a href="#index" data-transition="slide">  &#60 &#60 &#60 home</a></li>
+				<li><a href="#news" data-transition="pop"> Mars News</a></li>
+				<li><a href="#brief" data-transition="fade"> Assignment Brief</a></li>
+			</ul>
+		</div><!-- /navbar -->
+
+	</div> 
+
+		<div data-role="content">
+<p class="mytext">
+Beagle 2 was an unsuccessful British landing spacecraft that formed part of the European Space Agency's 2003 Mars Express mission. All contact with it was lost upon its separation from the Mars Express six days before its scheduled entry into the atmosphere. The Beagle 2 was named after HMS Beagle, which twice carried Charles Darwin during expeditions which would later lead to the theory of natural selection.
+</p>
+
+		</div>
+</div>
+<!--*********************************************************************************************-->
+
+
+<!--*********************************************************************************************-->
+
+
+<div data-role="page" id="spirit" data-theme="b">
+	<div data-role="header">
+		<h1>MER-A Spirit  </h1>
+		<div data-role="navbar">
+			<ul>
+				<li><a href="#index" data-transition="slide">  &#60 &#60 &#60home</a></li>
+				<li><a href="#news" data-transition="pop"> Mars News</a></li>
+				<li><a href="#brief" data-transition="fade"> Assignment Brief</a></li>
+			</ul>
+		</div><!-- /navbar -->
+
+	</div> 
+
+		<div data-role="content">
+<p class="mytext">
+Spirit, MER-A (Mars Exploration Rover – A), is a robotic rover on Mars, active from 2004 to 2010. It was one of two rovers of NASA's ongoing Mars Exploration Rover Mission. It landed successfully on Mars at 04:35 Ground UTC on January 4, 2004, three weeks before its twin, Opportunity (MER-B), landed on the other side of the planet. Its name was chosen through a NASA-sponsored student essay competition. The rover became stuck in late 2009, and its last communication with Earth was sent on March 22, 2010. </p>
+<p class="mytext">
+The rover completed its planned 90-sol mission. Aided by cleaning events that resulted in higher power from its solar panels, Spirit went on to function effectively over twenty times longer than NASA planners expected. Spirit also logged 7.73 km (4.8 mi) of driving instead of the planned 600 m (0.4 mi), allowing more extensive geological analysis of Martian rocks and planetary surface features. Initial scientific results from the first phase of the mission (the 90-sol prime mission) were published in a special issue of the journal Science.
+</p>
+
+		</div>
+</div>
+<!--*********************************************************************************************-->
+
+
+
+<!--*********************************************************************************************-->
+
+<div data-role="page" id="opportunity" data-theme="b">
+	<div data-role="header">
+		<h1>MER-B Opportunity   </h1>
+		<div data-role="navbar">
+			<ul>
+				<li><a href="#index" data-transition="slide">  &#60 &#60 &#60 home</a></li>
+				<li><a href="#news" data-transition="pop"> Mars News</a></li>
+				<li><a href="#brief" data-transition="fade"> Assignment Brief</a></li>
+			</ul>
+		</div><!-- /navbar -->
+
+	</div> 
+
+		<div data-role="content">
+<p class="mytext">
+Opportunity, MER-B (Mars Exploration Rover – B), is a robotic rover active on the planet Mars since 2004. Launched on July 7, 2003, Opportunity landed on Mars' Meridiani Planum on January 25, 2004 at 05:05 Ground UTC (about 13:15 Mars local time), three weeks after its twin Spirit (MER-A), also part of NASA's Mars Exploration Rover Mission, touched down on the other side of the planet.[4] While Spirit became immobile in 2009 and ceased communications in 2010, Opportunity remains active as of 2013, having already exceeded its planned 90 sol (Martian days) duration of activity by 9 years, 202 days (in Earth time). Opportunity has continued to move, gather scientific observations, and report back to Earth for over 38 times its designed lifespan.
+</p>
+
+		</div>
+</div>
+<!--*********************************************************************************************-->
+
+
+
+<!--*********************************************************************************************-->
+
+<div data-role="page" id="rosetta" data-theme="b">
+	<div data-role="header">
+		<h1>Rosetta</h1>
+		<div data-role="navbar">
+			<ul>
+				<li><a href="#index" data-transition="slide"> &#60 &#60 &#60 home</a></li>
+				<li><a href="#news" data-transition="pop"> Mars News</a></li>
+				<li><a href="#brief" data-transition="fade"> Assignment Brief</a></li>
+			</ul>
+		</div><!-- /navbar -->
+
+	</div> 
+
+		<div data-role="content">
+<p class="mytext">
+Rosetta is a robotic spacecraft built and launched by the European Space Agency to perform a detailed study of comet 67P/Churyumov–Gerasimenko. It is part of the ESA Horizon 2000 cornerstone missions and is the first mission designed to both orbit and land on a comet. </p>
+<p class="mytext">
+Rosetta was launched in March 2004 on an Ariane 5 rocket and will reach the comet by mid-2014. The spacecraft consists of two main elements: It comprises a large orbiter, the "Rosetta space probe" which features 12 instruments, and a robotic lander named "Philae", with a further 9 instruments.The Rosetta mission will orbit 67P for 17 months and is designed to complete the most detailed study of a comet ever attempted.
+</p>
+
+		</div>
+</div>
+<!--*********************************************************************************************-->
+
+<!--*********************************************************************************************-->
+
+<div data-role="page" id="recon" data-theme="b">
+	<div data-role="header">
+		<h1>Mars Reconnaissance Orbiter</h1>
+		<div data-role="navbar">
+			<ul>
+				<li><a href="#index" data-transition="slide">  &#60 &#60 &#60 home</a></li>
+				<li><a href="#news" data-transition="pop"> Mars News</a></li>
+				<li><a href="#brief" data-transition="fade"> Assignment Brief</a></li>
+			</ul>
+		</div><!-- /navbar -->
+
+	</div> 
+
+		<div data-role="content">
+<p class="mytext">
+Mars Reconnaissance Orbiter (MRO) is a multipurpose spacecraft designed to conduct reconnaissance and exploration of Mars from orbit. The US$720 million spacecraft was built by Lockheed Martin under the supervision of the Jet Propulsion Laboratory. The mission is managed by the JPL, at California Institute of Technology, La Canada Flintridge, California, for the NASA Science Mission Directorate, Washington, D.C. It was launched August 12, 2005, and attained Martian orbit on March 10, 2006. In November 2006, after five months of aerobraking, it entered its final science orbit and began its primary science phase. As MRO entered orbit it joined five other active spacecraft which were either in orbit or on the planet surface: Mars Global Surveyor, Mars Express, Mars Odyssey, and two Mars Exploration Rovers; at the time a record for the most operational spacecraft in the immediate vicinity of Mars.
+</p>
+
+		</div>
+</div>
+<!--*********************************************************************************************-->
+
+<!--*********************************************************************************************-->
+
+<div data-role="page" id="phoenix" data-theme="b">
+	<div data-role="header">
+		<h1>Phoenix</h1>
+		<div data-role="navbar">
+			<ul>
+				<li><a href="#index" data-transition="slide">  &#60 &#60 &#60 home</a></li>
+				<li><a href="#news" data-transition="pop"> Mars News</a></li>
+				<li><a href="#brief" data-transition="fade"> Assignment Brief</a></li>
+			</ul>
+		</div><!-- /navbar -->
+
+	</div> 
+
+		<div data-role="content">
+<p class="mytext">
+Phoenix was a robotic spacecraft on a space exploration mission on Mars under the Mars Scout Program. The Phoenix lander descended on Mars on May 25, 2008. Mission scientists used instruments aboard the lander to search for environments suitable for microbial life on Mars, and to research the history of water there.
+</p>
+
+		</div>
+</div>
+<!--*********************************************************************************************-->
+
+
+<!--*********************************************************************************************-->
+
+<div data-role="page" id="dawn" data-theme="b">
+	<div data-role="header">
+		<h1>Dawn</h1>
+		<div data-role="navbar">
+			<ul>
+				<li><a href="#index" data-transition="slide">  &#60 &#60 &#60home</a></li>
+				<li><a href="#news" data-transition="pop"> Mars News</a></li>
+				<li><a href="#brief" data-transition="fade"> Assignment Brief</a></li>
+			</ul>
+		</div><!-- /navbar -->
+
+	</div> 
+
+		<div data-role="content">
+<p class="mytext">
+Dawn is a space probe launched by NASA on September 27, 2007, to study the two most massive objects of the asteroid belt – the protoplanet Vesta and the dwarf planet Ceres. Currently on route to Ceres and scheduled and expected to arrive in February 2015, Dawn was the first spacecraft to visit Vesta, entering orbit on July 16, 2011. Should its mission succeed, it will also be the first spacecraft to visit Ceres and to orbit two separate extraterrestrial bodies.
+</p>
+
+		</div>
+</div>
+<!--*********************************************************************************************-->
+
+
+<!--*********************************************************************************************-->
+
+<div data-role="page" id="curiosity" data-theme="b">
+	<div data-role="header">
+		<h1>MSL Curiosity</h1>
+		<div data-role="navbar">
+			<ul>
+				<li><a href="#index" data-transition="slide">  &#60 &#60 &#60 home</a></li>
+				<li><a href="#news" data-transition="pop"> Mars News</a></li>
+				<li><a href="#brief" data-transition="fade"> Assignment Brief</a></li>
+			</ul>
+		</div><!-- /navbar -->
+
+	</div> 
+
+		<div data-role="content">
+<p class="mytext">
+Mars Science Laboratory (MSL) is a robotic space probe mission to Mars launched by NASA on November 26, 2011, which successfully landed Curiosity, a Mars rover, in Gale Crater on August 6, 2012. The overall objectives include investigating Mars' habitability, studying its climate and geology, and collecting data for a manned mission to Mars. The rover carries a variety of scientific instruments designed by an international team.
+</p>
+
+		</div>
+</div>
+<!--*********************************************************************************************-->
+
+
+<!--*********************************************************************************************-->
+
+<div data-role="page" id="mom" data-theme="b">
+	<div data-role="header">
+		<h1>Mars Orbiter Mission</h1>
+		<div data-role="navbar">
+			<ul>
+				<li><a href="#index" data-transition="slide"> &#60 &#60 &#60 home</a></li>
+				<li><a href="#news" data-transition="pop"> Mars News</a></li>
+				<li><a href="#brief" data-transition="fade"> Assignment Brief</a></li>
+			</ul>
+		</div><!-- /navbar -->
+
+	</div> 
+
+		<div data-role="content">
+<p class="mytext">
+The Mars Orbiter Mission (MOM), informally called Mangalyaan (Sanskrit: मंगलयान, "Mars-Craft"), is a Mars orbiter that was successfully launched into Earth orbit on 5 November 2013 by the Indian Space Research Organisation (ISRO).The mission is a "technology demonstrator" project aiming to develop the technologies required for design, planning, management and operations of an interplanetary mission.am.
+</p>
+
+		</div>
+</div>
+<!--*********************************************************************************************-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div data-role="page" id="news" data-theme="b">
+
+	<div data-role="header">
+		<h1>Mars Missions - news </h1>
+<div data-role="navbar">
+	<ul>
+		<li><a href="#index" data-transition="fade"> home</a></li>
+		<li><a href="#news" data-transition="pop"> Mars News</a></li>
+		<li><a href="#brief" data-transition="fade"> Assignment Brief</a></li>
+	</ul>
+</div><!-- /navbar -->
+	</div> 
+
+	<div data-role="content" id="newslist">
+		
+
+	</div> 
+
+</div> 
+
+<!--*********************************************************************************************-->
+
+<div data-role="page" id="brief" data-theme="b" >
+
+
+<div data-role="header">  
+	<h1>Assignment Brief</h1>
+
+<div data-role="navbar">
+	<ul>
+		<li><a href="#index" data-transition="fade"> home</a></li>
+		<li><a href="#news" data-transition="pop"> Mars News</a></li>
+		<li><a href="#brief" data-transition="fade" class="ui-btn-active"> Assignment Brief</a></li>
+	</ul>
+</div><!-- /navbar -->
+</div>
+
+<div data-role="content">
+
+<h3>Build a "list app" </h3>
+
+<em>FOLLOWING FEEDBACK FROM THE CLASS, THE DEADLINE FOR THIS ASSIGNMENT HAS BEEN EXTENDED TO NEXT THURSDAY, THE 14TH. </em>
+
+
+<p>
+You can make your site/app about anything that interests you.  For example, you might want to do a movie reviews app, a restaurant picker, a video jukebox, etc.
+</p>
+<p>
+The app should incorporate the following features. 
+<ol> 
+<li>Based on Mobile jQuery</li>
+<li>Present the user with an input box to filter the full list</li>
+<li>Use your own customized theme (ThemeRoller is fine but feel free to do something yourself if you prefer)</li>
+<li>Customize some of the default components, e.g. buttons, etc.</li>
+<li>Clicking on any list item (regardless of whether it is in the full or the filtered list) should use some page transition to present a "page" with extra content specific to that item.  </li>
+<li>Use only one single HTML file for the main content and functionality</li>
+<li>Assume that your app could be wired up to some server side data feed, but build it using mockup client side content (i.e. clearly indicate in your comments the portions of the code that you think should be dynamic if the app were using live data.</li>
+<li>A collapsable side panel with some info about your app.  e.g. usage instructions or something similar.</li>
+</ol>
+</p>
+</div>
+
+
+
+
+
+
+</div>
+	<script>
+
+function listPosts(data) {
+
+//console.log(data.responseData.results[0].image['url']);
+
+var rows = " ";
+$.each(data.responseData.results, function(i,item){
+	console.log(item);
+	var imgsrc = "";
+		if (item['image']!= null){
+
+		imgsrc="<img src='";	
+		imgsrc+=item.image['url'];
+		imgsrc+="' style='margin: 5px;'";
+		imgsrc+="/>";
+					}
+		else 
+		{
+		imgsrc="";
+		}
+	rows += "<ul class='ui-listview' data-role='listview' data-theme='c' data-dividertheme='b'>";
+	rows += "<li data-role='list-divider' role='heading'>";
+	rows += "<h5>"+ item['publishedDate']+ "&nbsp &nbsp | &nbsp &nbsp " + item['publisher'] + "</h5>";
+	rows += "</li><li>";
+	rows += "<h1>" +item['title'] + "</h1>";
+	rows+= "<p style='white-space: normal;'>"+ item['content']+ "</p>";
+	rows+= imgsrc;
+	rows += "</li></ul>";
+
+	});
+
+
+$('#newslist').html(rows);
+
+
+
+};
+
+
+$(document).ready(function(){
+	
+
+});
+</script>
+
+
+
+<script id='scriptus' src='https://ajax.googleapis.com/ajax/services/search/news?v=1.0&q=marsmissions&callback=listPosts' type='text/javascript'></script> 
+<script type="text/javascript">
+$('p').removeClass('ui-li-desc');
+
+</script>
+ 
+</body>
+</html>
